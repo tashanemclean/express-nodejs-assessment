@@ -45,13 +45,10 @@ Assessment payload can be found in the data object returned by the API! Full
 payload is:
 
 ```
-"data": [
+[
     "Hello Ian!",
     "This API was fun to create",
     "Although Nestjs is also a fun Nodejs framework! :)"
-],
-"success": true,
-"message": "ok",
-"statusCode": 200
+]
 
 ```

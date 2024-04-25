@@ -1,8 +1,8 @@
-import { APIResponse, Status } from "@/common/types";
+// import { APIResponse, Status } from "@/common/types";
 import { handleResponse } from "@/common/utils/http";
 import { Router, Request, Response } from "express";
 import * as express from "express";
-import { StatusCodes } from "http-status-codes";
+// import { StatusCodes } from "http-status-codes";
 import { GreetingService } from "../services/GreetingIan";
 import { OpenAPIRegistry } from "@asteasolutions/zod-to-openapi";
 import { createApiDocResponse } from "@/api-docs/openApiResponse";
@@ -22,15 +22,7 @@ export const greetingIanRoute: Router = (() => {
 	});
 	router.get("/", async (_req: Request, res: Response) => {
 		const result = await service.greetingIanRequest();
-		handleResponse(
-			{
-				data: result,
-				success: true,
-				message: "ok",
-				statusCode: StatusCodes.OK,
-			},
-			res
-		);
+		handleResponse(result, res);
 	});
 
 	return router;

@@ -6,10 +6,10 @@ export enum Status {
 }
 
 export class APIResponse<T = null> {
-	success: boolean;
-	message: string;
-	data: T;
-	statusCode: number;
+	success?: boolean;
+	message?: string;
+	data?: T;
+	statusCode?: number;
 
 	constructor(status: Status, message: string, data: T, statusCode: number) {
 		this.data = data;
