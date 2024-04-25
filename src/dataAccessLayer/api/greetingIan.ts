@@ -24,7 +24,7 @@ export const greetingIanRoute: Router = (() => {
 		const result = await service.greetingIanRequest();
 		handleResponse(
 			{
-				data: { message: result },
+				data: result,
 				success: true,
 				message: "ok",
 				statusCode: StatusCodes.OK,

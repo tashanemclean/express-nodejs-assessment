@@ -40,3 +40,18 @@ The Greeting api can be tested via http GET to `/v1/greetian` .
 ```
 curl --location 'http://localhost:5000/v1/greetian'
 ```
+
+Assessment payload can be found in the data object returned by the API! Full
+payload is:
+
+```
+"data": [
+    "Hello Ian!",
+    "This API was fun to create",
+    "Although Nestjs is also a fun Nodejs framework! :)"
+],
+"success": true,
+"message": "ok",
+"statusCode": 200
+
+```
