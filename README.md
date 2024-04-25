@@ -41,8 +41,7 @@ The Greeting api can be tested via http GET to `/v1/greetian` .
 curl --location 'http://localhost:5000/v1/greetian'
 ```
 
-Assessment payload can be found in the data object returned by the API! Full
-payload is:
+Assessment payload returned by the API:
 
 ```
 [
