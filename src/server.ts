@@ -1,5 +1,3 @@
-// import * as express from "express";
-// import * as cors from "cors";
 import cors from "cors";
 import express, { Express } from "express";
 import { logger } from "@/common/middleware/loggerMiddleware";

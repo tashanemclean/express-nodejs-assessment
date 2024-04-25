@@ -1,8 +1,6 @@
-// import { APIResponse, Status } from "@/common/types";
 import { handleResponse } from "@/common/utils/http";
 import { Router, Request, Response } from "express";
 import * as express from "express";
-// import { StatusCodes } from "http-status-codes";
 import { GreetingService } from "../services/GreetingIan";
 import { OpenAPIRegistry } from "@asteasolutions/zod-to-openapi";
 import { createApiDocResponse } from "@/api-docs/openApiResponse";
