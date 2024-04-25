@@ -1,0 +1,26 @@
+{
+	"name": "assessment-express-nodejs",
+	"version": "1.0.0",
+	"description": "express-nodejs-assessment",
+	"main": "index.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tsx watch src/index.ts"
+	},
+	"author": "Tashane Mclean",
+	"license": "ISC",
+	"dependencies": {
+		"@asteasolutions/zod-to-openapi": "^7.0.0",
+		"@types/express": "^4.17.21",
+		"cors": "^2.8.5",
+		"express": "^4.19.2",
+		"http-status-codes": "^2.3.0",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.7.2",
+		"typescript": "^5.4.5",
+		"zod": "^3.23.4"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.17"
+	}
+}
